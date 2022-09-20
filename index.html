@@ -222,8 +222,20 @@
                             <textarea name="textarea" placeholder="Conspiracy info" data-form-field="textarea" class="form-control" id="textarea-form5-o"></textarea>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-4">Send message</button></div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-4">Send message</button></div>
                       
+                      <h1 id="titleLine">The Conspiracy Button</h1> 
+                        <style>
+                        .bigger{
+                        font-size: 2.5em;
+                        }
+                        </style>
+                       <script language="JavaScript">
+                         function changeStuff() {
+                           titleLine = document.getElementById("titleLine");
+                            titleLine.className = "bigger";
+                           <button onclick="javascript:changeStuff()">Click Here</button>
+                           }
+                         </script>
                     </div>
                 </form>
             </div>
